@@ -3,16 +3,21 @@
 
 ## FEATURE:
 - 基于参考图，通过 Veo3 的 API 生成视频
+- 用户可以配置 Gemini API key
 - 生成的视频可以预览和下载
 - 提供几个示例 demo，包含示例图片，一句话提示词，可以快速生成视频
 - 支持vercel部署
 
 ## UI Design
-参考：`docs/UI_DESIGN_DOCUMENT.md`
+Material Design 3 设计风格 
+https://m3.material.io/foundations
+https://m3.material.io/foundations/content-design/overview
+
+布局：一页布局 上方示例展示、视频效果预览和下载功能，下方提示词输入
 
 ## Use Case
-- 文生视频：用户输入提示词，点击生成视频，预览视频，下载视频
-- 图生视频：用户上传图片，输入提示词，点击生成视频，预览视频，下载视频
+- 用户输入提示词，点击生成视频，预览视频，下载视频
+- 用户上传图片，输入提示词，点击生成视频，预览视频，下载视频
 
 ## 技术栈
 - **框架**：使用 [Next.js](https://nextjs.org/)，支持服务端渲染、文件路由、API Routes 等关键功能。  
