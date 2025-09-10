@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow API routes from crawling
+Disallow: /api/
+
+# Allow specific public API endpoints
+Allow: /api/health
+
+Sitemap: ${process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'}/sitemap.xml
